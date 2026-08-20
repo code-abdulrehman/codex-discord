@@ -1,0 +1,51 @@
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.pnpm-store/
+
+# ---- Build output ----
+dist/
+*.tsbuildinfo
+
+# ---- Environment & secrets ----
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ---- Runtime data (users, sessions, tasks history) ----
+data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- Temp ----
+tmp/
+temp/
+*.tmp
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---- Editors / IDEs ----
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Testing / coverage ----
+coverage/
+.nyc_output/
